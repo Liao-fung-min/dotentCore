@@ -27,7 +27,7 @@ namespace DemoApi.EmployeeData
         public void DeleteEmployee(Employee employee)
         {
            
-                _employeeContext.Employees.Remove(employee);
+            _employeeContext.Employees.Remove(employee);
             _employeeContext.SaveChanges();
 
             
