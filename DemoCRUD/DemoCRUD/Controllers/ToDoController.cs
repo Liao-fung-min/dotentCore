@@ -70,7 +70,7 @@ namespace DemoCRUD.Controllers
             }
             return View(item);
         }
-
+       
         // Get /todo/delet
         public async Task<ActionResult> Delete(int id)
         {
